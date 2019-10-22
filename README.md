@@ -1,1 +1,0 @@
-# maciejlatasz.github.io
