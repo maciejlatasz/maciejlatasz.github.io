@@ -1,0 +1,62 @@
+.skills {
+    max-width: 1184px;
+    margin: 0 auto;
+    &__title {
+        font-size: 2.25rem;
+        margin: 0;
+        font-style: normal;
+        font-weight: 600;
+        padding: 1rem 0;
+        // underlinie - podkreślnik
+        border-bottom: 2px solid #E5E8EC;
+    }
+}
+
+.skills-list {
+    display: grid;
+    padding: 8rem 0 0;
+    grid-template-columns: 1fr 1fr;
+     &__item {
+        color: $grey;
+        padding: 11px 0 11px 30px;
+        position: relative;
+        &::before {
+            position: absolute;
+            top: 11px;
+            left: 0;
+            content: "";
+            display: block;
+            width: 18px;
+            height: 18px;
+            background: url('../assets/img/v-green.svg');
+        }
+    }
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        // delete default list style
+        list-style-type: none;
+        padding: 0;
+        // unit calculator - title margin + line weight
+        margin-top: calc(1.5rem + 4px);
+        // gap between columns
+        column-gap: 1.5rem;
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 2rem;
+        line-height: 2.75rem;
+        margin: 0;
+        // line above title
+        &::before {
+            content: "";
+            height: 0.25rem;
+            width: 5rem;
+            display: block;
+            background: $green;
+            border-radius: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+    }
+}

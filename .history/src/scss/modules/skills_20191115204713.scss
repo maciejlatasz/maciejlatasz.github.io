@@ -1,0 +1,24 @@
+.skills {
+    max-width: 1184px;
+    margin: 0 auto;
+    &__title {
+        font-size: 2.25rem;
+        margin: 0;
+        font-style: normal;
+        font-weight: 600;
+        padding: 1rem 0;
+        // underlinie - podkreślnik
+        border-bottom: 2px solid #E5E8EC;
+    }
+}
+
+.skills-list {
+    display: flex;
+    &__title {
+        font-weight: 600;
+        font-size: 2rem;
+        line-height: 2.75rem;
+        margin: 0;
+
+    }
+}
