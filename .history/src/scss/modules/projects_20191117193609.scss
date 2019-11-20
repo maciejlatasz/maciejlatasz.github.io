@@ -1,0 +1,17 @@
+.projects {
+    background: $light-grey;
+    padding: 8rem 0;
+    &__description {
+        font-weight: 300;
+        font-size: 28px;
+        line-height: 2rem;
+        color: $grey;
+    }
+    &__title {
+        font-size: 2.25rem;
+        margin: 0 auto;
+        font-style: normal;
+        font-weight: 600;
+        padding: 1rem 0;
+        max-width: 1184px;
+}
